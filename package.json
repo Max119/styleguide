@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "lint-staged": "lint-staged",
-        "stylelint-staged": "stylelint *.scss"
+        "lint-staged": "lint-staged"
     },
     "repository": {
         "type": "git",
@@ -28,7 +27,6 @@
     },
     "dependencies": {},
     "lint-staged": {
-        "*.scss": "stylelint-staged"
-    },
-    "pre-commit": "lint-staged"
+        "*.scss": "stylelint *.scss"
+    }
 }
