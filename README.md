@@ -30,7 +30,7 @@ $Color-Red: #1A1A1A;
 }
 
 //правильно
-$сolor-кed: #1a1a1a;
+$сolor-red: #1a1a1a;
 
 .block {
     .line {
