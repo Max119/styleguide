@@ -4,7 +4,9 @@
     "description": "scss stylelint",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint-staged": "lint-staged",
+        "stylelint-staged": "stylelint --syntax scss"
     },
     "repository": {
         "type": "git",
@@ -26,6 +28,7 @@
     },
     "dependencies": {},
     "lint-staged": {
-        "*.scss": "stylelint"
-    }
+        "*.scss": "stylelint-staged"
+    },
+    "pre-commit": "lint-staged"
 }
