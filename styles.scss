@@ -4,4 +4,8 @@
     content: "text";
     font-family: "Roboto", sans-serif;
     background: url("../path-top-picture/picture.png");
+
+    @media (max-width: 100px) {
+        display: none;
+    }
 }
