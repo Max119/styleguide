@@ -21,5 +21,11 @@
         "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
         "stylelint-order": "^2.2.1",
         "stylelint-scss": "^3.5.4"
+    },
+    "dependencies": {
+        "lint-staged": "^8.1.5"
+    },
+    "lint-staged": {
+        "*": "stylelint *.scss"
     }
 }
