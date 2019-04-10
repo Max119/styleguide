@@ -29,6 +29,5 @@
     "dependencies": {},
     "lint-staged": {
         "*.scss": "npm run stylelint-staged"
-    },
-    "pre-commit": "lint-staged"
+    }
 }
