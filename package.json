@@ -1,25 +1,25 @@
 {
-  "name": "styleguide",
-  "version": "1.0.0",
-  "description": "scss stylelint",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Max119/styleguide.git"
-  },
-  "author": "Max Belousov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Max119/styleguide/issues"
-  },
-  "homepage": "https://github.com/Max119/styleguide#readme",
-  "devDependencies": {
-    "stylelint": "^9.10.1",
-    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
-    "stylelint-order": "^2.2.1",
-    "stylelint-scss": "^3.5.4"
-  }
+    "name": "styleguide",
+    "version": "1.0.0",
+    "description": "scss stylelint",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Max119/styleguide.git"
+    },
+    "author": "Max Belousov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Max119/styleguide/issues"
+    },
+    "homepage": "https://github.com/Max119/styleguide#readme",
+    "devDependencies": {
+        "stylelint": "^9.10.1",
+        "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+        "stylelint-order": "^2.2.1",
+        "stylelint-scss": "^3.5.4"
+    }
 }
