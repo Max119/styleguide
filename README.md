@@ -205,9 +205,11 @@ $сolor-red: #1a1a1a;
 .class-name-1 {
     box-shadow: 0 0 10px 0 #000;
         
+    /* stylelint-disable */
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         width: 100%;
     }
+    /* stylelint-enable */
 }
 ```
 
@@ -235,12 +237,12 @@ $color-black: #000;
 ```scss
 //неправильно
 .class-name-1:before {
-    content: 'text';
+    content: "text";
 }
 
 //правильно
 .class-name-1::before {
-    content: 'text';
+    content: "text";
 }
 ```
 
@@ -307,6 +309,29 @@ $color-black: #000;
 4. Оформление
 5. Анимация
 6. Разное
+
+** Порядок правил **
+
+* CSS-переменные.
+* `$`-переменные.
+* `@include` без контента
+* Свойства
+* `&::before`
+* `&::after`
+* Различные селекторы
+* `&:link`
+* `&:visited`
+* `&:focus`
+* `&:hover`
+* `&:active`
+* `&:first-child`
+* `&:last-child`
+* `&:nth-child()`
+* `&[attr]`
+* `&.modifier`
+* `&--modifier`
+* `@include` с контентом
+* `@media`
 
 **Именование классов:**
 1. Имена классов в нижнем регистре, слова разделяются знаком тире -
